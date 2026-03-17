@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#c9beb6;
+}
+
+/* ---------- PORTADA ---------- */
+
+.portada{
+height:100vh;
+background:#b8959f;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.portada h1{
+font-size:150px;
+color:white;
+margin:0;
+font-weight:900;
+}
+
+.nombre{
+font-family:cursive;
+font-size:40px;
+margin-top:-10px;
+color:#333;
+}
+
+.botones{
+margin-top:70px;
+}
+
+.botones a{
+text-decoration:none;
+background:#8a5f6b;
+color:white;
+padding:12px 28px;
+margin:10px;
+border-radius:8px;
+font-size:14px;
+box-shadow:0px 5px 10px rgba(0,0,0,0.2);
+}
+
+/* ---------- SOBRE MI ---------- */
+
+.sobre-mi{
+height:100vh;
+padding:80px 10%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:60px;
+background:#A89292;
+}
+
+.texto{
+max-width:600px;
+color:#333;
+}
+
+.texto h2{
+font-size:60px;
+color:white;
+margin-bottom:20px;
+}
+
+.texto h3{
+font-size:30px;
+color:white;
+margin:0;
+}
+
+.texto p{
+line-height:1.6;
+margin-bottom:20px;
+}
+
+/* Placeholder circular */
+
+.foto1{
+width:320px;
+height:320px;
+border-radius:50%;
+border:4px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:14px;
+text-align:center;
+
+}
+
+
+/* ---------- PROYECTOS ---------- */
+
+.proyectos{
+height:100vh;
+padding:80px 5%;
+background:#b8959f;
+text-align:center;
+}
+
+.galeria{
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+gap:40px;
+}
+
+.proyecto{
+width:250px;
+}
+
+.proyecto img{
+width:300px;
+height:300px;
+border-radius:5px;
+}
+
+.proyecto h4{
+margin:10px 0;
+font-weight:500;
+}
+
+.proyecto button{
+background:#8a5f6b;
+border:none;
+color:white;
+padding:10px 20px;
+border-radius:8px;
+cursor:pointer;
+box-shadow:0px 5px 10px rgba(0,0,0,0.2);
+}
+
+.siguiente{
+margin-top:60px;
+}
+
+.siguiente button{
+background:#b8959f;
+border:none;
+padding:12px 30px;
+border-radius:10px;
+color:white;
+}
+
+/* ---------- REDES ---------- */
+
+.redes-sociales{
+height:100vh;
+padding:80px 10%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:60px;
+background:#A89292;
+}
+
+.texto{
+max-width:600px;
+color:#333;
+}
+
+.texto h2{
+font-size:60px;
+color:white;
+margin-bottom:20px;
+}
+
+.texto h3{
+font-size:30px;
+color:white;
+margin:0;
+}
+
+.texto p{
+line-height:1.6;
+margin-bottom:20px;
+}
+
+.foto-redes{
+width:350px;
+height:350px;
+border-radius:5%;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:14px;
+text-align:center;
+padding:20px;
+}
+}
+
+/* ---------- contacto ---------- */
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<!-- PORTADA -->
+
+<section class="portada">
+
+<h1>portafolio</h1>
+<div class="nombre">Camila Delhumeau</div>
+
+<div class="botones">
+<a href="#sobre">ABOUT ME</a>
+<a href="#proyectos">PROYECTOS</a>
+<a href="#redes">REDES SOCIALES</a>
+<a href="#contacto">CONTACTO</a>
+</div>
+
+</section>
+
+
+<!-- SOBRE MI -->
+
+<section id="sobre" class="sobre-mi">
+
+<div class="texto">
+
+<h3>Un poco</h3>
+<h2>SOBRE MÍ</h2>
+
+<p>
+Soy estudiante de Diseño de la Comunicación Gráfica, con un fuerte interés en la creación visual como forma de expresión y narrativa. Mi trabajo se mueve entre el diseño y la pintura.
+</p>
+
+<p>
+La pintura es parte fundamental de mi proceso creativo: a través de ella exploro color, textura y emoción.
+</p>
+
+<p>
+Me interesa crear piezas que no solo sean funcionales, sino que también transmitan sensaciones y cuenten historias.
+</p>
+
+<p>
+Actualmente continúo desarrollando mi estilo combinando lo manual y lo digital.
+</p>
+
+</div>
+
+<div class="foto1">
+
+	<img src="foto1.jpg" style="width:350px; height:350px; border-radius:50%;">
+	
+
+</div>
+
+</section>
+
+
+<!-- PROYECTOS -->
+
+<section id="proyectos" class="proyectos">
+
+<h2>PROYECTOS</h2>
+
+<div class="galeria">
+
+<div class="proyecto">
+<h4>Un deseo en silencio (2025)</h4>
+<img src="foto2.jpg">
+<br><br>
+<button>Ver más...</button>
+</div>
+
+<div class="proyecto">
+<h4>The boring blue boy (2025)</h4>
+<img src="foto3.jpg">
+<br><br>
+<button>Ver más...</button>
+</div>
+
+<div class="proyecto">
+<h4>El lenguaje secreto de las flores (2025)</h4>
+<img src="foto4.jpg">
+<br><br>
+<button>Ver más...</button>
+</div>
+
+<div class="proyecto">
+<h4>Canción para una fiesta sin nadie (2024)</h4>
+<img src="foto5.jpg">
+<br><br>
+<button>Ver más...</button>
+</div>
+
+<div class="galeria">
+
+<div class="proyecto">
+<h4>(2025)</h4>
+<img src="foto6.jpg">
+<br><br>
+<button>Ver más...</button>
+</div>
+
+<div class="proyecto">
+<h4>(2025)</h4>
+<img src="foto7.jpg">
+<br><br>
+<button>Ver más...</button>
+</div>
+
+<div class="proyecto">
+<h4>(2025)</h4>
+<img src="foto8.jpg">
+<br><br>
+<button>Ver más...</button>
+</div>
+
+<div class="proyecto">
+<h4>(2025)</h4>
+<img src="foto9.jpg">
+<br><br>
+<button>Ver más...</button>
+</div>
+
+</div>
+
+
+</section>
+
+<!-- REDES SOCIALES -->
+
+<section id="redes" class="redes-sociales">
+
+<div class="texto">
+
+<h3>Mis redes</h3>
+<h2>Sociales</h2>
+
+<p>
+En mi cuenta de instagram comparto principalmente mis trabajos de arte y pintura, asi como procesos creativos y exploraciones visuales que forman parte de mi  desarrollo como artista y diseñadora
+</p>
+
+<div class="foto-redes">
+
+<img src="QR.png" alt="imagen 1" style="width:350px; height:350px">
+
+
+</div>
+
+
+</section>
+
+<!-- CONTACTO -->
+
+
+
+</body>
+</html>
